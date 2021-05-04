@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-page8{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.button-part{
+    display:block;
+    width: 100px;
+}
+.back, .share{
+    display: grid;
+    grid-template-columns: auto;
+    height: 45px;
+    width: 45px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: #f5f5fb;
+    border-style: none;
+    border-radius: 50%;
+}
+.back:hover{
+    background-color: lavender;
+}
+.share:hover{
+    background-color: lavender;
+}
+.back:focus{
+    outline: none;
+}
+.share:focus{
+    outline: none;
+}
+.back-image{
+    align-self: center;
+    justify-self: center;
+    height: 32px;
+    width: 32px;
+}
+.share-image{
+    align-self: center;
+    justify-self: center;
+    height: 28px;
+    width: 28px;
+}
+.main-part8{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+.link-part8{
+    display:block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    margin-top: -15px;
+    margin-left: 70px;
+    animation: drop 0.8s ease-in-out;
+}
+@keyframes drop{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;  
+    }
+}
+.link-part8 p{
+    background-color: rgb(0, 0, 0);
+    height: 28px;
+    color: white;
+    text-align:center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+.resume-part8{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-gap: 15px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px 1px gainsboro;
+    margin-top: 20px;
+}
+.first-row8{
+    display: block;
+    color: black;
+    padding-left: 30px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 35px;
+}
+.name-div8{
+    font-family: 'Lexend', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to left bottom,#5b6cb2,#6969af,#7964a9,#8b5ca2,#b34290,#ce3d77,#d44271,#e45159,#eb5749,#f27a44,#f5af59);
+    width: max-content;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+}
+.first-row8 p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    font-size: 400;
+    padding-left: 10px;
+}
+.second-row8{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 35px;
+}
+.first-col8{
+    display: block;
+    margin-left: 30px;
+}
+.col-items8{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 2px;
+    color: black;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.col-items8 h3{
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.col-items8 hr{
+    width: 100%;
+    height: 0.7px;
+    background-image: linear-gradient(to left,#5b6cb2,#6969af,#7964a9,#8b5ca2,#b34290,#ce3d77,#d44271,#e45159,#eb5749,#f27a44,#f5af59);
+    border-style: none
+}
+.col-items8 h4{
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: #575757;
+}
+.col-items8 p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #797979;
+}
+
+.second-col8{
+    display: block;
+    margin-right: 20px;
+}
+.second-col-items8{
+    margin-bottom: 30px;
+}
+.second-col-items8 h3{
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.second-col-items8 p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    color: black;
+}
+.second-col-items8 button{
+    background-color: #21a2f6;
+    font-family: 'Lexend', sans-serif;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 70px;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.second-col-items8 button:focus{
+    outline: none;
+}
+.second-col8 hr{
+    width: auto;
+    height: 0.7px;
+    background-image: linear-gradient(to left,#5b6cb2,#6969af,#7964a9,#8b5ca2,#b34290,#ce3d77,#d44271,#e45159,#eb5749,#f27a44,#f5af59);
+    border-style: none
+}

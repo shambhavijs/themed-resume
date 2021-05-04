@@ -1,0 +1,12 @@
+.loading-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100vh;
+}
+.loading-div img{
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}

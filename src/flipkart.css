@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,500;1,600;1,700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-page4{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.button-part{
+    display:block;
+    width: 100px;
+}
+.back, .share{
+    display: grid;
+    grid-template-columns: auto;
+    height: 45px;
+    width: 45px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    background-color: #f5f5fb;
+    border-style: none;
+    border-radius: 50%;
+}
+.back:hover{
+    background-color: lavender;
+}
+.share:hover{
+    background-color: lavender;
+}
+.back:focus{
+    outline: none;
+}
+.share:focus{
+    outline: none;
+}
+.back-image{
+    align-self: center;
+    justify-self: center;
+    height: 32px;
+    width: 32px;
+}
+.share-image{
+    align-self: center;
+    justify-self: center;
+    height: 28px;
+    width: 28px;
+}
+.main-part4{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+.link-part4{
+    display:block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    margin-top: -15px;
+    margin-left: 70px;
+    animation: drop 0.8s ease-in-out;
+}
+@keyframes drop{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;  
+    }
+}
+.link-part4 p{
+    background-color: rgb(0, 0, 0);
+    height: 28px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+.resume-part4{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-gap: 15px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px 1px gainsboro;
+    margin-top: 20px;
+}
+.first-row4{
+    display: block;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #2874f0;
+}
+.first-row4 h1{
+    width: max-content;
+    height: 35px;
+    border-style: none;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    margin-top: -2px;
+}
+.second-row4{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 35px;
+}
+.first-col4{
+    display: block;
+    margin-left: 30px;
+}
+.col-items4{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 2px;
+    color: black;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.col-items4 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    
+}
+.col-items4 hr{
+    width: 100%;
+    height: 0.5px;
+    background-color: #2874f0;
+    border-style: none
+}
+.col-items4 h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: #575757;
+}
+.col-items4 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    color: #797979;
+    font-style: italic;
+}
+
+.second-col4{
+    display: block;
+    margin-right: 20px;
+}
+.second-col-items4{
+    margin-bottom: 30px;
+}
+.second-col-items4 h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.second-col-items4 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    color: black;
+}
+.second-col-items4 button{
+    background-color:#f5e00b;
+    font-family: 'Raleway', sans-serif;
+    border-style: none;
+    border-radius: 5px;
+    color: black;
+    height: 25px;
+    width: 70px;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.second-col-items4 button:focus{
+    outline: none;
+}
+.second-col4 hr{
+    width: auto;
+    height: 0.5px;
+    background-color: #2874f0;
+    border-style: none
+}
