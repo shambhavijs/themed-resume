@@ -66,7 +66,7 @@ function Flipkart(props) {
                 {(props.state.link === true)?
                     <ClickAwayListener onClickAway={e=>hideLink()}>
                     <section className="link-part4" >
-                        {(port === 0 || port === null)?
+                        {(port === 0 || port === '')?
                             <p>Copy this link {protocol}//{hostname}/{props.uid}/flipkart</p>:
                             <p>Copy this link {protocol}//{hostname}:{port}/{props.uid}/flipkart</p> 
                         }

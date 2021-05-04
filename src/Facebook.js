@@ -66,7 +66,7 @@ function Facebook(props) {
                 {(props.state.link === true)?
                     <ClickAwayListener onClickAway={e=>hideLink()}>
                     <section className="link-part" >
-                        {(port === 0 || port === null)?
+                        {(port === 0 || port === '')?
                             <p>Copy this link {protocol}//{hostname}/{props.uid}/facebook</p>:
                             <p>Copy this link {protocol}//{hostname}:{port}/{props.uid}/facebook</p> 
                         }

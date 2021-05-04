@@ -66,7 +66,7 @@ function Instagram(props) {
                 {(props.state.link === true)?
                     <ClickAwayListener onClickAway={e=>hideLink()}>
                     <section className="link-part8" >
-                        {(port === 0 || port === null)?
+                        {(port === 0 || port === '')?
                             <p>Copy this link {protocol}//{hostname}/{props.uid}/instagram</p>:
                             <p>Copy this link {protocol}//{hostname}:{port}/{props.uid}/instagram</p> 
                         }

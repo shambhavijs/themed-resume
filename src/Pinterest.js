@@ -66,7 +66,7 @@ function Pinterest(props) {
                 {(props.state.link === true)?
                     <ClickAwayListener onClickAway={e=>hideLink()}>
                     <section className="link-part10" >
-                        {(port === 0 || port === null)?
+                        {(port === 0 || port === '')?
                             <p>Copy this link {protocol}//{hostname}/{props.uid}/pinterest</p>:
                             <p>Copy this link {protocol}//{hostname}:{port}/{props.uid}/pinterest</p> 
                         }
